@@ -1,0 +1,140 @@
+/****************ELEMENT TAGS*************** */
+
+body {
+    margin-top: 1rem;
+    background-size:cover;
+    background-image: url("background-home-desktop.jpg");
+    text-align: center;
+    width: 1183.110px;
+    height: fit-content;
+
+}
+
+h1 {
+    font-family: 'Bellefair';
+    font-size:150px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 auto 0;
+    text-shadow: none;
+    fill: none;
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family:'Bellefair', serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+    width: auto;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 4.75;
+    color: #d0d6f9;
+    margin: 0 auto 0;
+}
+
+p {
+    display: inline-block;
+}
+
+/*****************CLASS TAGS*****************/
+
+.logo {
+    position: absolute;
+    left: 2rem;
+    top: 1.5rem;
+}
+
+.line {
+    display: inline-block;
+    position: absolute;
+    top: 3rem;
+    left: 11rem;
+    width: 35%;
+    color: white;
+    margin: 0;
+    border-style: solid;
+    height: 0.5px;
+    border: 0.5px;    
+}
+
+.btn {
+    background-color: #2d2d2da7;
+    width: 599.556px;
+    height: auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    position: fixed;
+    left: 583.556px;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.menu_items {
+    margin:0 0.5rem;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-bottom-width: 5px solid  transparent;
+}
+
+.menu_items:hover {
+    opacity: 75%;
+    border-bottom: 5px solid white;
+}
+
+.menu_items:active {
+    opacity: 100%;
+    border-bottom: 5px solid white;
+}
+
+.intro {
+    color: #d0d6f9;
+}
+
+.main_content {
+    position:relative;
+    left: 4rem;
+    top: 17rem;
+    width: 24rem; 
+    text-align: left;
+}
+
+.text {
+    width: auto;
+}
+
+.explore_btn {
+    width: auto;
+    position: fixed;
+    top: 30rem; /*200px*/
+    left: 50rem; /*350px*/
+
+    
+}
+
+
+
+
+
+/******************ID TAGS*******************/
+
